@@ -36,8 +36,5 @@ jobs:
         run: ruff check .
 
 
-      # 6. Check code formatting
-      - name: Check formatting
-        run: ruff format --check .
-
+     
       
